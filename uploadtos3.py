@@ -19,11 +19,11 @@ pwd = os.environ['PGPASS']
 uid = os.environ['PGUID']
 
 # MySQL credentials
-mysql_user = "root"
-mysql_password = "Jaisriram44"
-mysql_host = "127.0.0.1"
-mysql_port = 3306
-mysql_db = "orders"
+mysql_user = "your_user"
+mysql_password = "your_password"
+mysql_host = "your_host"
+mysql_port = your_port
+mysql_db = "your_db"
 
 # (Optional test connection)
 conn = mysql.connector.connect(
